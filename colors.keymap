@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
 // TailorKey 4.2j Go60 - RGB Lighting 
 // Paste this configuration into the Custom Device-tree section
 // For more into, see https://sites.google.com/view/tailorkey
@@ -138,12 +138,12 @@
       #ifdef LAYER_Typing
       Typing {
         bindings = <
-          WHT WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
-          ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
-          ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
-          ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT ___
-                  WHT ___ ___                                             ___ WHT WHT 
-                                      ___ ___ ___     ___ ___ ___  
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          SPG ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ SPG
+                  ___ SPG SPG                                             SPG ___ ___ 
+                                      SPG ___ ___     ___ ___ SPG  
         >;
         layer-id = <LAYER_Typing>;
         fade-delay = <180>;
@@ -153,12 +153,12 @@
       #ifdef LAYER_AutoShift
       AutoShift {
         bindings = <
-          AZU AZU AZU AZU AZU AZU                                     AZU AZU AZU AZU AZU AZU
-          ___ AZU AZU AZU AZU AZU                                     AZU AZU AZU AZU AZU AZU
-          ___ AZU AZU AZU AZU AZU                                     AZU AZU AZU AZU AZU AZU
-          ___ AZU AZU AZU AZU AZU                                     AZU AZU AZU AZU AZU ___
-                  AZU ___ ___                                             ___ AZU AZU 
-                                      ___ ___ ___     ___ ___ ___  
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
+          COR ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ COR
+                  ___ COR COR                                             COR ___ ___ 
+                                      COR ___ ___     ___ ___ COR  
         >;
         layer-id = <LAYER_AutoShift>;
         fade-delay = <180>;
@@ -170,7 +170,7 @@
         bindings = <
           ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT 
           ___ PNK GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW WHT 
-          ___ PNK GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW ORN
+          ___ MAJ GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW ORN
           ___ ___ ___ ___ ___ ___                                     YLW YLW YLW YLW YLW ___
                   ___ ___ ___                                             ___ YLW YLW 
                                       ___ ___ ___     ___ ___ ___ 
@@ -183,9 +183,9 @@
       #ifdef LAYER_Symbol
       Symbol {
         bindings = <
-          PNK WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
-          ___ PNK BLU BLU BLU BLU                                     GRN GRN GRN GRN PNK WHT
-          ___ PNK BLU BLU BLU BLU                                     GRN GRN GRN GRN PNK PNK
+          TUR WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
+          ___ GDN BLU BLU BLU BLU                                     GRN GRN GRN GRN PNK WHT
+          ___ COR BLU BLU BLU BLU                                     GRN GRN GRN GRN MAJ PUR
           ___ BLU BLU BLU BLU BLU                                     BLU BLU BLU BLU BLU ___
                   BLU ___ ___                                             ___ ___ BLU
                                       ___ ___ ___     ___ ___ ___ 

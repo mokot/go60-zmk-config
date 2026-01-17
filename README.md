@@ -10,13 +10,14 @@ The original TailorKey layout is a zero-code, [Glorious Engrammer](https://githu
 
 ### Set of features:
 
+- Dual-OS (MacOS / Linux) support
 - Home-row modifiers (HRM)
+- Basic typing layer
 - AutoShift
-- Cursor and symbol layers
-- Mouse / trackpad emulation
+- Dedicated keypad and symbol layers
+- Mouse emulation
 - Combo keys
 - Optional RGB lighting
-- Dual-OS (MacOS / Linux) support
 
 ### Layers:
 
@@ -35,51 +36,3 @@ The original TailorKey layout is a zero-code, [Glorious Engrammer](https://githu
 | 6. Mouse                          | 7. Magic                          |
 | --------------------------------- | --------------------------------- |
 | ![6. Mouse](./static/6_Mouse.png) | ![7. Magic](./static/7_Magic.png) |
-
-### Changes done:
-
-##### 1. General:
-
-- Renamed HRM MacOS / HRM Linux layers
-- Removed Gaming and Mouse layers
-- Renamed AutoShift layer for clarity
-- Reordered layers: HRM → Typing → AutoShift → Keypad → Symbol → Mouse → Magic
-- Renamed and adjusted home-row hold-taps based on Sunaku’s [reference](https://docs.google.com/spreadsheets/d/1ESgObQelyz4lnKlfwLYsmofLJulOMK5RdGBsopLe2o8)
-- Renamed and adjusted AutoShift macros and hold-taps following [ZMK AutoShift behavior](https://github.com/nickcoutsos/keymap-editor/wiki/Autoshift-using-ZMK-behaviors) guidelines
-- Renamed thumb and space hold-taps for consistency
-- Renamed `CapsLock` and `F*` combos
-- Removed word and line selection extensions
-- Removed unused macros, hold-taps, and combos
-- Increased mouse movement speed (×3) and reduced scroll speed (×0.75)
-- Mapped left mouse button to act as right click
-- Enabled per-key and per-layer RGB ([instructions](https://sites.google.com/view/tailorkey/how-to/rgb))
-
-##### 2. Home-Row Mods:
-
-- Swapped `Space` and `Backspace`
-- Adjusted layout to more closely match the factory configuration
-- Added Symbol layer access
-- Updated thumb key placement
-
-##### 3. AutoShift:
-
-- Added `Magic` key for exiting the layer
-- Added brackets and tilde keys
-- Return to Typing layer after use
-- Removed extra `Num Enter` and `Num 0`; added `Num =`
-- Removed clipboard and undo/redo actions
-
-##### 4. Symbol:
-
-- Made `Magic` and thumb keys transparent
-- Return to Typing layer after use
-
-##### 5. Mouse:
-
-- Increased movement speed (×9) and scroll speed (×1)
-- Added horizontal and vertical scroll controls
-
-##### 6. Magic:
-
-- Swapped HRM MacOS and HRM Linux keys
-- Replaced text output macro with Bluetooth Clear Bonds
