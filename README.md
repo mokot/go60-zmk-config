@@ -1,4 +1,6 @@
-![MoErgo Logo](./static/logo.png)
+<div align="center">
+  <img src="./static/logo.png" alt="MoErgo Logo" width="420">
+</div>
 
 # MoErgo Go60 ZMK Config
 
@@ -14,7 +16,7 @@ The original TailorKey layout is a zero-code, [Glorious Engrammer](https://githu
 - Mouse / trackpad emulation
 - Combo keys
 - Optional RGB lighting
-- Dual-OS (macOS / Linux) support
+- Dual-OS (MacOS / Linux) support
 
 ### Layers:
 
@@ -79,5 +81,5 @@ The original TailorKey layout is a zero-code, [Glorious Engrammer](https://githu
 
 ##### 6. Magic:
 
-- Swapped HRM macOS and HRM Linux keys
+- Swapped HRM MacOS and HRM Linux keys
 - Replaced text output macro with Bluetooth Clear Bonds
