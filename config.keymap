@@ -296,8 +296,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN CHU RED ___                                     ___ RED CHU CYN MAJ ___
           WHT ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ WHT
-                  ___ WHT WHT                                             WHT ___ ___ 
-                                      WHT ___ ___     ___ ___ WHT 
+                  ___ WHT WHT                                             WHT ___ ___
+                                      WHT ___ ___     WHT ___ ___
         >;
         layer-id = <LAYER_HRM_Linux>;
         fade-delay = <30>;
@@ -311,8 +311,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ CHU CYN MAJ RED ___                                     ___ RED MAJ CYN CHU ___
           WHT ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ WHT
-                  ___ WHT WHT                                             WHT ___ ___ 
-                                      WHT ___ ___     ___ ___ WHT 
+                  ___ WHT WHT                                             WHT ___ ___
+                                      WHT ___ ___     WHT ___ ___
         >;
         layer-id = <LAYER_HRM_MacOS>;
         fade-delay = <30>;
@@ -325,9 +325,9 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
-          SPG ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ SPG
-                  ___ SPG SPG                                             SPG ___ ___ 
-                                      SPG ___ ___     ___ ___ SPG  
+          COR ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ COR
+                  ___ COR COR                                             COR ___ ___
+                                      COR ___ ___     COR ___ ___
         >;
         layer-id = <LAYER_Typing>;
         fade-delay = <180>;
@@ -340,9 +340,9 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
-          COR ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ COR
-                  ___ COR COR                                             COR ___ ___ 
-                                      COR ___ ___     ___ ___ COR  
+          SPG ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ SPG
+                  ___ SPG SPG                                             SPG ___ ___
+                                      SPG ___ ___     SPG ___ ___
         >;
         layer-id = <LAYER_AutoShift>;
         fade-delay = <180>;
@@ -352,12 +352,12 @@
       #ifdef LAYER_Keypad
       Keypad {
         bindings = <
-          ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT 
-          ___ PNK GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW WHT 
+          ___ WHT WHT WHT WHT WHT                                     WHT WHT WHT WHT WHT WHT
+          ___ PNK GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW WHT
           ___ MAJ GRN GRN GRN GRN                                     YLW YLW YLW YLW YLW ORN
           ___ ___ ___ ___ ___ ___                                     YLW YLW YLW YLW YLW ___
-                  ___ ___ ___                                             ___ YLW YLW 
-                                      ___ ___ ___     ___ ___ ___ 
+                  ___ ___ ___                                             ___ YLW YLW
+                                      ___ ___ ___     ___ ___ ___
         >;
         layer-id = <LAYER_Keypad>;
         fade-delay = <15>;
@@ -372,7 +372,7 @@
           ___ COR BLU BLU BLU BLU                                     GRN GRN GRN GRN MAJ PUR
           ___ BLU BLU BLU BLU BLU                                     BLU BLU BLU BLU BLU ___
                   BLU ___ ___                                             ___ ___ BLU
-                                      ___ ___ ___     ___ ___ ___ 
+                                      ___ ___ ___     ___ ___ ___
         >;
         layer-id = <LAYER_Symbol>;
         fade-delay = <5>;
@@ -387,7 +387,7 @@
           ___ ___ TEA TEA TEA ___                                     ___ TEA TEA TEA ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
                   ___ ___ ___                                             ___ ___ ___
-                                      TEA TEA TEA     TEA TEA TEA    
+                                      TEA TEA TEA     TEA TEA TEA
         >;
         layer-id = <LAYER_Mouse>;
         fade-delay = <5>;
